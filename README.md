@@ -7,6 +7,9 @@ This is a basic todo application that enables a user to add, delete, or update a
 ## Questions
 Answers to assessment questions are included in the ``answers.md`` file.
 
+## useFetch Hook
+The ``useFetch()`` hook is defined in the **hooks** folder and displayed via ``PlaceholderTodos.tsx`` page. You can access this page via the application by hitting the ``Use Fetch`` link on the navbar. 
+
 ## Features
 
 - **Add Todos**: Users can add new todos to the list.
