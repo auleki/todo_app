@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Assessment for Revent
 
-Currently, two official plugins are available:
+This is a basic todo application that enables a user to add, delete, or update a todo status. The state of the application is persisted with local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Questions
+Answers to assessment questions are included in the ``answers.md`` file.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Add Todos**: Users can add new todos to the list.
+- **Delete Todos**: Users can remove todos from the list.
+- **Update Todo Status**: Users can mark todos as completed, not-started or in-progress.
+- **Local Storage**: The application state is saved in the browser's local storage, so todos persist even after refreshing the page.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To run this project locally, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository & Run application**:
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
+   npm install
+   npm start
+   ```
+
